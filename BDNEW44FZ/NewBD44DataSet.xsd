@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="NewBD44DataSet" targetNamespace="http://tempuri.org/NewBD44DataSet.xsd" xmlns:mstns="http://tempuri.org/NewBD44DataSet.xsd" xmlns="http://tempuri.org/NewBD44DataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="NewBD44ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="NewBD44ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.BDNEW44FZ.Properties.Settings.GlobalReference.Default.NewBD44ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="РИЦКОНТРАКТЫ1TableAdapter" GeneratorDataComponentClassName="РИЦКОНТРАКТЫ1TableAdapter" Name="РИЦКОНТРАКТЫ1" UserDataComponentName="РИЦКОНТРАКТЫ1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="NewBD44ConnectionString (Settings)" DbObjectName="NewBD44.dbo.РИЦКОНТРАКТЫ1" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT [№ закупки], [Реестровый номер], [Наименование заказчика], [ИНН заказчика], [Наименование исполнителя], [ИНН исполнителя], [Дата определения поставщика], [Дата заключения контракта], [Номер контракта], Цена, [Объект закупки], [Способ определения], [Срок действия], [код позиции КТРУ/ОКПД2], [Статус Выполнения], Основание, Изменения, visible, РИЦ, Город, ИНН, Статус, [Фирма с 1%], contractID, startDate, endDate, placing FROM dbo.РИЦКОНТРАКТЫ1</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="№ закупки" DataSetColumn="№ закупки" />
+              <Mapping SourceColumn="Реестровый номер" DataSetColumn="Реестровый номер" />
+              <Mapping SourceColumn="Наименование заказчика" DataSetColumn="Наименование заказчика" />
+              <Mapping SourceColumn="ИНН заказчика" DataSetColumn="ИНН заказчика" />
+              <Mapping SourceColumn="Наименование исполнителя" DataSetColumn="Наименование исполнителя" />
+              <Mapping SourceColumn="ИНН исполнителя" DataSetColumn="ИНН исполнителя" />
+              <Mapping SourceColumn="Дата определения поставщика" DataSetColumn="Дата определения поставщика" />
+              <Mapping SourceColumn="Дата заключения контракта" DataSetColumn="Дата заключения контракта" />
+              <Mapping SourceColumn="Номер контракта" DataSetColumn="Номер контракта" />
+              <Mapping SourceColumn="Цена" DataSetColumn="Цена" />
+              <Mapping SourceColumn="Объект закупки" DataSetColumn="Объект закупки" />
+              <Mapping SourceColumn="Способ определения" DataSetColumn="Способ определения" />
+              <Mapping SourceColumn="Срок действия" DataSetColumn="Срок действия" />
+              <Mapping SourceColumn="код позиции КТРУ/ОКПД2" DataSetColumn="код позиции КТРУ/ОКПД2" />
+              <Mapping SourceColumn="Статус Выполнения" DataSetColumn="Статус Выполнения" />
+              <Mapping SourceColumn="Основание" DataSetColumn="Основание" />
+              <Mapping SourceColumn="Изменения" DataSetColumn="Изменения" />
+              <Mapping SourceColumn="visible" DataSetColumn="visible" />
+              <Mapping SourceColumn="РИЦ" DataSetColumn="РИЦ" />
+              <Mapping SourceColumn="Город" DataSetColumn="Город" />
+              <Mapping SourceColumn="ИНН" DataSetColumn="ИНН" />
+              <Mapping SourceColumn="Статус" DataSetColumn="Статус" />
+              <Mapping SourceColumn="Фирма с 1%" DataSetColumn="Фирма с 1%" />
+              <Mapping SourceColumn="contractID" DataSetColumn="contractID" />
+              <Mapping SourceColumn="startDate" DataSetColumn="startDate" />
+              <Mapping SourceColumn="endDate" DataSetColumn="endDate" />
+              <Mapping SourceColumn="placing" DataSetColumn="placing" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="NewBD44DataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="NewBD44DataSet" msprop:Generator_UserDSName="NewBD44DataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="РИЦКОНТРАКТЫ1" msprop:Generator_TableClassName="РИЦКОНТРАКТЫ1DataTable" msprop:Generator_TableVarName="tableРИЦКОНТРАКТЫ1" msprop:Generator_TablePropName="РИЦКОНТРАКТЫ1" msprop:Generator_RowDeletingName="РИЦКОНТРАКТЫ1RowDeleting" msprop:Generator_RowChangingName="РИЦКОНТРАКТЫ1RowChanging" msprop:Generator_RowEvHandlerName="РИЦКОНТРАКТЫ1RowChangeEventHandler" msprop:Generator_RowDeletedName="РИЦКОНТРАКТЫ1RowDeleted" msprop:Generator_UserTableName="РИЦКОНТРАКТЫ1" msprop:Generator_RowChangedName="РИЦКОНТРАКТЫ1RowChanged" msprop:Generator_RowEvArgName="РИЦКОНТРАКТЫ1RowChangeEvent" msprop:Generator_RowClassName="РИЦКОНТРАКТЫ1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="_x2116__x0020_закупки" msprop:Generator_ColumnVarNameInTable="_column__закупки" msprop:Generator_ColumnPropNameInRow="___закупки" msprop:Generator_ColumnPropNameInTable="___закупкиColumn" msprop:Generator_UserColumnName="№ закупки" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Реестровый_x0020_номер" msprop:Generator_ColumnVarNameInTable="columnРеестровый_номер" msprop:Generator_ColumnPropNameInRow="Реестровый_номер" msprop:Generator_ColumnPropNameInTable="Реестровый_номерColumn" msprop:Generator_UserColumnName="Реестровый номер" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Наименование_x0020_заказчика" msprop:Generator_ColumnVarNameInTable="columnНаименование_заказчика" msprop:Generator_ColumnPropNameInRow="Наименование_заказчика" msprop:Generator_ColumnPropNameInTable="Наименование_заказчикаColumn" msprop:Generator_UserColumnName="Наименование заказчика" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ИНН_x0020_заказчика" msprop:Generator_ColumnVarNameInTable="columnИНН_заказчика" msprop:Generator_ColumnPropNameInRow="ИНН_заказчика" msprop:Generator_ColumnPropNameInTable="ИНН_заказчикаColumn" msprop:Generator_UserColumnName="ИНН заказчика" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Наименование_x0020_исполнителя" msprop:Generator_ColumnVarNameInTable="columnНаименование_исполнителя" msprop:Generator_ColumnPropNameInRow="Наименование_исполнителя" msprop:Generator_ColumnPropNameInTable="Наименование_исполнителяColumn" msprop:Generator_UserColumnName="Наименование исполнителя" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ИНН_x0020_исполнителя" msprop:Generator_ColumnVarNameInTable="columnИНН_исполнителя" msprop:Generator_ColumnPropNameInRow="ИНН_исполнителя" msprop:Generator_ColumnPropNameInTable="ИНН_исполнителяColumn" msprop:Generator_UserColumnName="ИНН исполнителя" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Дата_x0020_определения_x0020_поставщика" msprop:Generator_ColumnVarNameInTable="columnДата_определения_поставщика" msprop:Generator_ColumnPropNameInRow="Дата_определения_поставщика" msprop:Generator_ColumnPropNameInTable="Дата_определения_поставщикаColumn" msprop:Generator_UserColumnName="Дата определения поставщика" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Дата_x0020_заключения_x0020_контракта" msprop:Generator_ColumnVarNameInTable="columnДата_заключения_контракта" msprop:Generator_ColumnPropNameInRow="Дата_заключения_контракта" msprop:Generator_ColumnPropNameInTable="Дата_заключения_контрактаColumn" msprop:Generator_UserColumnName="Дата заключения контракта" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Номер_x0020_контракта" msprop:Generator_ColumnVarNameInTable="columnНомер_контракта" msprop:Generator_ColumnPropNameInRow="Номер_контракта" msprop:Generator_ColumnPropNameInTable="Номер_контрактаColumn" msprop:Generator_UserColumnName="Номер контракта" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Цена" msprop:Generator_ColumnVarNameInTable="columnЦена" msprop:Generator_ColumnPropNameInRow="Цена" msprop:Generator_ColumnPropNameInTable="ЦенаColumn" msprop:Generator_UserColumnName="Цена" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Объект_x0020_закупки" msprop:Generator_ColumnVarNameInTable="columnОбъект_закупки" msprop:Generator_ColumnPropNameInRow="Объект_закупки" msprop:Generator_ColumnPropNameInTable="Объект_закупкиColumn" msprop:Generator_UserColumnName="Объект закупки" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Способ_x0020_определения" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnСпособ_определения" msprop:Generator_ColumnPropNameInRow="Способ_определения" msprop:Generator_ColumnPropNameInTable="Способ_определенияColumn" msprop:Generator_UserColumnName="Способ определения" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="156" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Срок_x0020_действия" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnСрок_действия" msprop:Generator_ColumnPropNameInRow="Срок_действия" msprop:Generator_ColumnPropNameInTable="Срок_действияColumn" msprop:Generator_UserColumnName="Срок действия" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="66" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="код_x0020_позиции_x0020_КТРУ_x002F_ОКПД2" msprop:Generator_ColumnVarNameInTable="_columnкод_позиции_КТРУ_ОКПД2" msprop:Generator_ColumnPropNameInRow="_код_позиции_КТРУ_ОКПД2" msprop:Generator_ColumnPropNameInTable="_код_позиции_КТРУ_ОКПД2Column" msprop:Generator_UserColumnName="код позиции КТРУ/ОКПД2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Статус_x0020_Выполнения" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnСтатус_Выполнения" msprop:Generator_ColumnPropNameInRow="Статус_Выполнения" msprop:Generator_ColumnPropNameInTable="Статус_ВыполненияColumn" msprop:Generator_UserColumnName="Статус Выполнения" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="21" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Основание" msprop:Generator_ColumnVarNameInTable="columnОснование" msprop:Generator_ColumnPropNameInRow="Основание" msprop:Generator_ColumnPropNameInTable="ОснованиеColumn" msprop:Generator_UserColumnName="Основание" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Изменения" msprop:Generator_ColumnVarNameInTable="columnИзменения" msprop:Generator_ColumnPropNameInRow="Изменения" msprop:Generator_ColumnPropNameInTable="ИзмененияColumn" msprop:Generator_UserColumnName="Изменения" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="visible" msprop:Generator_ColumnVarNameInTable="columnvisible" msprop:Generator_ColumnPropNameInRow="visible" msprop:Generator_ColumnPropNameInTable="visibleColumn" msprop:Generator_UserColumnName="visible" type="xs:boolean" minOccurs="0" />
+              <xs:element name="РИЦ" msprop:Generator_ColumnVarNameInTable="columnРИЦ" msprop:Generator_ColumnPropNameInRow="РИЦ" msprop:Generator_ColumnPropNameInTable="РИЦColumn" msprop:Generator_UserColumnName="РИЦ" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Город" msprop:Generator_ColumnVarNameInTable="columnГород" msprop:Generator_ColumnPropNameInRow="Город" msprop:Generator_ColumnPropNameInTable="ГородColumn" msprop:Generator_UserColumnName="Город" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ИНН" msprop:Generator_ColumnVarNameInTable="columnИНН" msprop:Generator_ColumnPropNameInRow="ИНН" msprop:Generator_ColumnPropNameInTable="ИННColumn" msprop:Generator_UserColumnName="ИНН" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Статус" msprop:Generator_ColumnVarNameInTable="columnСтатус" msprop:Generator_ColumnPropNameInRow="Статус" msprop:Generator_ColumnPropNameInTable="СтатусColumn" msprop:Generator_UserColumnName="Статус" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Фирма_x0020_с_x0020_1_x0025_" msprop:Generator_ColumnVarNameInTable="_columnФирма_с_1_" msprop:Generator_ColumnPropNameInRow="_Фирма_с_1_" msprop:Generator_ColumnPropNameInTable="_Фирма_с_1_Column" msprop:Generator_UserColumnName="Фирма с 1%" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="contractID" msprop:Generator_ColumnVarNameInTable="columncontractID" msprop:Generator_ColumnPropNameInRow="contractID" msprop:Generator_ColumnPropNameInTable="contractIDColumn" msprop:Generator_UserColumnName="contractID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="startDate" msprop:Generator_ColumnVarNameInTable="columnstartDate" msprop:Generator_ColumnPropNameInRow="startDate" msprop:Generator_ColumnPropNameInTable="startDateColumn" msprop:Generator_UserColumnName="startDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="endDate" msprop:Generator_ColumnVarNameInTable="columnendDate" msprop:Generator_ColumnPropNameInRow="endDate" msprop:Generator_ColumnPropNameInTable="endDateColumn" msprop:Generator_UserColumnName="endDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="placing" msprop:Generator_ColumnVarNameInTable="columnplacing" msprop:Generator_ColumnPropNameInRow="placing" msprop:Generator_ColumnPropNameInTable="placingColumn" msprop:Generator_UserColumnName="placing" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
